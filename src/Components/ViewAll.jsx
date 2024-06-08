@@ -8,9 +8,9 @@ const ViewAll = () => {
 
         axios.get("https://jsonplaceholder.typicode.com/photos").then(
 
-            (respnse) => {
-                console.log(respnse.data)
-                changedData(respnse.data)
+            (response) => {
+                console.log(response.data)
+                changedData(response.data)
             }
 
         ).catch().finally()
